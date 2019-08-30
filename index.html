@@ -50,9 +50,6 @@
                   <a class="nav-link" href="files/emunro-cv.pdf" target="_blank">CV</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-              <li class="nav-item">
                   <a class="nav-link" href="outdoor.html">Outdoors</a>
               </li>
 
@@ -65,14 +62,14 @@
             <div class="col-sm-8">
                 <p>I am a first-year PhD student in Economics at Stanford GSB, where I work with
                     <a href="https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens" target="_blank"> Guido Imbens </a> and <a href="https://athey.people.stanford.edu" target="_blank">Susan Athey</a>.
-                    I am interested in problems at the intersection of economics and statistical machine learning.
-                    My current research involves Bayesian latent variable models, causal inference, and estimation of complex structural economic models. </p>
+                    I am interested in problems at the intersection of economics and machine learning.
+                    My current research involves Bayesian latent variable models and the applications of neural networks in causal inference and structural economic modeling. </p>
 
                 <p>Previously, I received an MPhil in Economics from Oxford University, where my
                      <a href="files/mphilthesis.pdf" target="_blank">thesis</a> on high-dimensional statistics was supervised by
                      <a href="https://sites.google.com/site/andersbkock/about" target="_blank">Anders Kock </a>.
                      I completed my B.A. at Columbia University, where I worked with
-                     <a href="https://sites.google.com/site/sn2294/" target="_blank"> Serena Ng </a> on empirical macroeconomics and big data.</p>
+                     <a href="https://econ.columbia.edu/econpeople/serena-ng/" target="_blank"> Serena Ng </a> on empirical macroeconomics and big data.</p>
 
 
                 <p>
@@ -100,18 +97,51 @@
                 <!-- clonealign -->
                 <div class="panel panel-default">
                         <div class="panel-body">
-                             <strong> Hierarchical Latent Variable Models for Economic Survey Data (with Serena Ng)</strong>
+                             <strong> Using Wasserstein Generative
+                                 Adversial Networks for the Design of Monte Carlo Simulations
+                                 (with Susan Athey, Guido Imbens, and Jonas Metzger)</strong>
                             <p class="text-primary">
                                 <strong> </strong>
                              </p>
                             <p class="text-muted">
-                                 Existing methods for extracting summary indexes
-                                 from multivariate discrete data are generally ad-hoc, often treating discrete variables as if they were continuous.
-                                 We introduce Bayesian structural models for estimating indexes from time series survey data and extract
-                                 insights from the Gallup World Poll Social Series and the Michigan Survey of Consumers.
+                                Researchers often use artificial data to assess the performance of new econometric methods.
+                                In many cases the data generating processes used  in these Monte Carlo studies do not resemble real data sets
+                                and instead reflect many arbitrary decisions made by the researchers.
+                                As a result  potential users of the methods are rarely persuaded by these
+                                simulations that the new methods are as attractive as the simulations make them out to be.
+                                We discuss the use of Wasserstein Generative Adversarial Networks (WGANs) as a
+                                method for systematically generating  artificial data that mimic closely any given real data set
+                                without the researcher having many degrees of freedom. We apply the methods
+                                to compare in three different settings twelve different estimators for
+                                average treatment effects under unconfoundedness. We conclude in this example that
+                                (i) there is not one estimator that outperforms the others in all three settings,
+                                and (ii) that systematic simulation studies can be helpful for selecting among competing methods.
+                            <div class="btn-group-xs">
+                                <a href="TBD" target="_blank" class="btn btn-default">Paper</a>
+                                <a href="https://github.com/evanmunro/design-of-simulations" target="_blank" class="btn btn-default">Code</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="panel panel-default">
+                        <div class="panel-body">
+                             <strong> Latent Dirichlet Allocation for Categorical Survey Data (with Serena Ng)</strong>
+                            <p class="text-primary">
+                                <strong> </strong>
+                             </p>
+                            <p class="text-muted">
+                                 Survey data are increasingly available as the internet provides a new medium for
+                                  conducting surveys. Survey responses tend to be  discrete and qualitative in nature,
+                                  but existing methods that construct summary indices from survey data often treat the
+                                  discrete variables as if they were continuous. We adapt  hierarchical Bayesian methods
+                                  used for text and genomic analysis to cluster low dimension of summary measures from static and dynamic panels
+                                  of survey data. The proposed methodology is used to (i) construct  wealth indices
+                                  for developing countries where continuous data tend to be lacking, (ii) show that
+                                  there is additional information of interest in the Michigan survey beyond the consumer sentiment
+                                   index that is officially published, and (iii) illustrate that the estimated indexes
+                                   can be used to control for unobserved heterogeneity in estimation of returns to education.
                             <div class="btn-group-xs">
                                 <a href="files/munro_ng_2019.pdf" target="_blank" class="btn btn-default">Paper</a>
-                                <a href="https://github.com/evanmunro/multinomial-ts-paper" target="_blank" class="btn btn-default">Code</a>
+                                <a href="https://github.com/evanmunro/hlvm-survey-paper" target="_blank" class="btn btn-default">Code</a>
                                 <a href="https://github.com/evanmunro/dhlvm" target="_blank" class="btn btn-default">R package</a>
                             </div>
                         </div>
@@ -122,7 +152,7 @@
                         <h3> </h3>
                         <p class="text-muted">
                         </p>
-                        <h4>Research Projects </h4>
+                        <h4>Research Projects and Software </h4>
 
                         <!-- clonealign -->
                         <div class="panel panel-default">
@@ -143,10 +173,55 @@
                                 </div>
                         </div>
 
+                        <!-- clonealign -->
+                        <div class="panel panel-default">
+                                <div class="panel-body">
+                                     <strong> Identifying Side Products in Peptide Synthesis </strong>
+                                    <p class="text-primary">
+                                        <strong> </strong>
+                                     </p>
+                                    <p class="text-muted">
+                                         Synthesis of long peptides via solid phase peptide synthesis can often
+                                         lead to a number of side products that include truncated peptides and
+                                         peptides with deletions that decrease the yield of the synthesis and
+                                         can be difficult to purify. This simple R Shiny web application is meant to help
+                                         identify coupling steps that are problematic by determining which side products
+                                         might be appearing in the LC-MS of the crude cleaved peptide mixture.
+                                         The utility implements a simple recursive solution of the subset sum problem
+                                         to find the candidate peptides. Originally written for members of the Peter Kim lab at Stanford.
+                                    <div class="btn-group-xs">
+                                        <a href="https://evanmunro.shinyapps.io/peptide-checker-app/" target="_blank" class="btn btn-default">Web Application</a>
+                                        <a href="https://github.com/evanmunro/peptide-checker-app/" target="_blank" class="btn btn-default">Source Code</a>
+                                        <a href="https://github.com/evanmunro/peptide-checker" target="_blank" class="btn btn-default">C++ Utility</a>
+                                    </div>
+                                </div>
+                        </div>
+                </div>
+                    <div class="row marketing">
+                        <h4>Open Source Contributions </h4>
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <table class="table table-hover">
 
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Package</th>
+                                            <th scope="col">Language</th>
+                                            <th scope="col">Contribution</th>
+                                        </tr>
+                                    </thead>
 
-
-    </div>
+                                    <tbody>
+                                        <tr>
+                                            <th>grf</th>
+                                            <td>R</td>
+                                            <td> Boosted regression forests </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
