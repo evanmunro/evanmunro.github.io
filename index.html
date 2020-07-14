@@ -1,241 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Evan Munro</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Evan Munro</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"><!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="narrow-jumbotron.css" rel="stylesheet"><!-- Global site tag (gtag.js) - Google Analytics -->
 
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-
-    <link href="narrow-jumbotron.css" rel="stylesheet">
-
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131395533-1"></script>
-    <script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131395533-1"></script>
+  <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'UA-131395533-1');
-    </script>
-
-    <link href="estyle.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  </script>
+  <link href="estyle.css" rel="stylesheet"><!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <!-- Google analytics -->
+  <!-- Google analytics -->
+</head>
+<body>
+  <div class="container">
+    <div class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Research <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="files/emunro-cv.pdf" target="_blank">CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="softwareprojects.html">Software Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="outdoor.html">Outdoors</a>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">Evan Munro</h3>
+    </div>
+    <div class="row marketing">
+      <div class="col-sm-8">
+        <p>I am a second-year PhD student in Economics at Stanford GSB, where I work with <a href="https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens" target="_blank">Guido Imbens</a>
+          and <a href="https://athey.people.stanford.edu" target="_blank">Susan Athey</a>.
+          I am interested in problems at the intersection of machine learning, econometrics, and mechanism design.
+        </p>
+        <p>Previously, I received an MPhil in Economics from Oxford University and a B.A. in Economics and Computer Science-Mathematics
+          from Columbia University.
+        </p>
+        <center>
+          <a href="https://www.github.com/evanmunro" target="_blank"></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/evan-munro-a731a546" target="_blank"></a> &nbsp;&nbsp; <a href="mailto:munro@stanford.edu" target="_blank"></a> &nbsp;&nbsp;
+        </center>
+      </div>
+      <div class="col-sm-4">
+        <center>
+          <img src="me.jpg" class="img-rounded img-responsive" style="max-width: 200px;" alt="me">
+        </center>
+      </div>
+    </div>
 
+    <div class="row marketing">
+      <a name="wps" id="wps"></a>
+      <p class="text-muted"></p>
+      <h4>Publications and Accepted Papers</h4><!-- clonealign -->
+    </div>
 
-  </head>
-  <body>
-    <div class="container">
-        <div class="header clearfix">
-          <nav>
-            <ul class="nav nav-pills pull-right">
-              <li class="nav-item">
-                  <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-
-              <li class="nav-item">
-                  <a class="nav-link" href="files/emunro-cv.pdf" target="_blank">CV</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="outdoor.html">Outdoors</a>
-              </li>
-
-            </ul>
-          </nav>
-          <h3 class="text-muted">Evan Munro</h3>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <strong>Latent Dirichlet Analysis of Categorical Survey Expectations (with Serena Ng)</strong>
+        <p class="text-primary"><strong>Journal of Business & Economics Statistics, Forthcoming</strong></p>
+        <p class="text-muted"> We propose using a Bayesian hierarchical latent class model to summarize and interpret observed heterogeneity in categorical expectations data.
+          We show that the statistical model corresponds to an economic structural model of
+          information acquisition, which guides interpretation and estimation of the model parameters.
+        </p>
+        <div class="btn-group-xs">
+          <a href="https://arxiv.org/abs/1910.04883" target="_blank" class="btn btn-default">Paper</a> <a href="https://github.com/evanmunro/hlvm-survey-paper" target="_blank" class="btn btn-default">Code</a> <a href="https://github.com/evanmunro/dhlvm" target="_blank" class="btn btn-default">R package</a>
         </div>
+      </div>
+    </div>
 
-        <div class="row marketing">
-            <div class="col-sm-8">
-                <p>I am a second-year PhD student in Economics at Stanford GSB, where I work with
-                    <a href="https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens" target="_blank"> Guido Imbens </a> and <a href="https://athey.people.stanford.edu" target="_blank">Susan Athey</a>.
-                    I am interested in problems at the intersection of machine learning, econometrics, and mechanism design.
-                <p>Previously, I received an MPhil in Economics from Oxford University, where my
-                     <a href="files/mphilthesis.pdf" target="_blank">thesis</a> was supervised by
-                     <a href="https://sites.google.com/site/andersbkock/about" target="_blank">Anders Kock </a>.
-                     I completed my B.A. at Columbia University, where I worked with
-                     <a href="https://econ.columbia.edu/econpeople/serena-ng/" target="_blank"> Serena Ng </a> on econometrics and big data.</p>
-
-
-                <p>
-                    <center>
-                    <a href="https://www.github.com/evanmunro" target="_blank"><i class="fa fa-github fa-2x"></i></a> &nbsp;&nbsp;
-                    <a href="https://www.linkedin.com/in/evan-munro-a731a546" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a> &nbsp;&nbsp;
-                        <a href="mailto:munro@stanford.edu" target="_blank"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a> &nbsp;&nbsp;
-                    </center>
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <center>
-                <img src="me.jpg" class="img-rounded img-responsive" style="max-width: 200px;">
-                </center>
-            </div>
+    <div class="row marketing">
+      <a name="wps" id="wps"></a>
+      <p class="text-muted"></p>
+      <h4>Working Papers</h4><!-- clonealign -->
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <strong>Using Wasserstein Generative Adversial Networks for the Design of Monte Carlo Simulations (with Susan Athey, Guido Imbens, and Jonas Metzger)</strong>
+        <p class="text-primary"><strong>Status: Revise and Resubmit</strong></p>
+        <p class="text-muted">We discuss using Wasserstein Generative Adversarial Networks (WGANs) as a method for systematically generating artificial data that mimic closely any given real data set without the researcher having many degrees of freedom. We apply the methods to compare in three different settings twelve different estimators for average treatment effects under unconfoundedness.</p>
+        <div class="btn-group-xs">
+          <a href="https://www.nber.org/papers/w26566" target="_blank" class="btn btn-default">Paper</a> <a href="https://github.com/gsbDBI/ds-wgan" target="_blank" class="btn btn-default">Package</a>
         </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <strong>An Incentive-Compatible Draft Allocation Policy (with Martino Banchio)</strong>
+        <p class="text-primary"><strong>Status: Submitted</strong></p>
+        <p class="text-muted"> In the major U.S. sports leagues, the most valuable newly eligible player is allocated through a draft lottery that
+          favors the lowest-ranked teams after each season. We prove that under the current mechanism, it is impossible to both favor the lowest-ranked teams and
+          eliminate all incentives for teams to lose intentionally. We design an incentive-compatible lottery that dynamically adjusts as the season progresses,
+          favors the worst teams, and is optimal in a restricted class of mechanisms.
+        </p>
+        <div class="btn-group-xs">
+          <a href="files/draftpolicy.pdf" target="_blank" class="btn btn-default">Paper</a> <a href="https://github.com/evanmunro/draft-policy" target="_blank" class="btn btn-default">Code</a>
+        </div>
+      </div>
+    </div>
 
-        <div class="row marketing">
-                <a name="wps"></a>
-                <h3>  </h3>
-                <p class="text-muted">
-                </p>
-                <h4> Working Papers </h4>
+    <div class="row marketing">
+      <a name="wps" id="wps"></a>
+      <p class="text-muted"></p>
+      <h4>Work in Progress</h4><!-- clonealign -->
+    </div>
 
-                <!-- clonealign -->
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <strong>Experimental Design of Robust Predictive Policy</strong>
+        <p class="text-muted">Most existing methods to estimate the optimal prediction function
+          when agents are strategic require full knowledge of the environment, including distributional and
+          functional form assumptions. I design a dynamic experiment that is simple to implement and recovers an
+          optimal prediction function under a general class of strategic behavior, without knowledge of the structure.
+        </p>
+      </div>
+    </div>
 
-
-            </div>
-                <div class="panel panel-default">
-                        <div class="panel-body">
-                             <strong> Using Wasserstein Generative
-                                 Adversial Networks for the Design of Monte Carlo Simulations
-                                 (with Susan Athey, Guido Imbens, and Jonas Metzger)</strong>
-                            <p class="text-primary">
-                                <strong> Status: Revise and Resubmit </strong>
-                             </p>
-                            <p class="text-muted">
-
-                                We discuss using Wasserstein Generative Adversarial Networks (WGANs) as a
-                                method for systematically generating  artificial data that mimic closely any given real data set
-                                without the researcher having many degrees of freedom. We apply the methods
-                                to compare in three different settings twelve different estimators for
-                                average treatment effects under unconfoundedness.
-                            <div class="btn-group-xs">
-                                <a href="https://www.nber.org/papers/w26566" target="_blank" class="btn btn-default">Paper</a>
-                                <a href="https://github.com/gsbDBI/ds-wgan" target="_blank" class="btn btn-default">Package</a>
-                            </div>
-                        </div>
-                </div>
-                <div class="panel panel-default">
-                        <div class="panel-body">
-                             <strong> Latent Dirichlet Analysis of Categorical Survey Responses (with Serena Ng)</strong>
-                            <p class="text-primary">
-                                <strong> Status: Revise and Resubmit </strong>
-                             </p>
-                            <p class="text-muted">
-                                  Existing methods that construct summary indices from survey data often treat the
-                                  discrete variables as if they were continuous. We adapt  hierarchical Bayesian methods
-                                  used for text analysis to extract interpretable, low dimensional summaries from static and dynamic panels
-                                  of survey data.
-                            <div class="btn-group-xs">
-                                <a href="https://arxiv.org/abs/1910.04883" target="_blank" class="btn btn-default">Paper</a>
-                                <a href="https://github.com/evanmunro/hlvm-survey-paper" target="_blank" class="btn btn-default">Code</a>
-                                <a href="https://github.com/evanmunro/dhlvm" target="_blank" class="btn btn-default">R package</a>
-                            </div>
-                        </div>
-                </div>
-
-                <div class="panel panel-default">
-                        <div class="panel-body">
-                             <strong> An Incentive-Compatible Draft Allocation Policy
-                                 (with Martino Banchio)</strong>
-                            <p class="text-primary">
-                                <strong> Status: Submitted </strong>
-                             </p>
-                            <p class="text-muted">
-                                To promote competition, sports leagues want to give the first round draft pick to teams with
-                                worse records each year. In response, many teams are accused of losing purposely in order to secure a better pick.
-                                We analyze draft pick allocation policy in the NBA using a theoretical model of team decision making.
-                                We prove that under the existing policy, it is not possible to have a lottery that is both redistributive
-                                and incentive-compatible. We design an alternative system that satisfies both redistribution and incentive compatibility.
-                            <div class="btn-group-xs">
-                                <a href="files/draftpolicy.pdf" target="_blank" class="btn btn-default">Paper</a>
-                                <a href="https://github.com/evanmunro/draft-policy" target="_blank" class="btn btn-default">Code</a>
-                            </div>
-                        </div>
-                </div>
-
-
-
-                <div class="row marketing">
-                        <a name="projs"></a>
-                        <h3> </h3>
-                        <p class="text-muted">
-                        </p>
-                        <h4>Research Projects and Software </h4>
-                </div>
-                        <!-- clonealign -->
-                        <div class="panel panel-default">
-                                <div class="panel-body">
-                                     <strong> Deep Learning for Restaurant Choice </strong>
-                                    <p class="text-primary">
-                                        <strong> </strong>
-                                     </p>
-                                    <p class="text-muted">
-                                         The state of the art methods in predicting consumer choice are Bayesian matrix factorization methods.
-                                         This projects explores challenges and opportunities with using neural networks with embedding layers to predict restaurant choice from a
-                                         large dataset of individual lunch choices in the Bay Area.
-                                         Submitted as the final project for Stanford's Deep Learning class (CS230).
-                                    <div class="btn-group-xs">
-                                        <a href="files/restaurantChoice.pdf" target="_blank" class="btn btn-default">Paper</a>
-                                        <a href="https://github.com/evanmunro/restaurant-choice" target="_blank" class="btn btn-default">Code</a>
-                                    </div>
-                                </div>
-                        </div>
-
-                        <!-- clonealign -->
-                        <div class="panel panel-default">
-                                <div class="panel-body">
-                                     <strong> Identifying Side Products in Peptide Synthesis </strong>
-                                    <p class="text-primary">
-                                        <strong> </strong>
-                                     </p>
-                                    <p class="text-muted">
-                                         Synthesis of long peptides via solid phase peptide synthesis can often
-                                         lead to a number of side products. This simple R Shiny web application is meant to help
-                                         determine which problematic side products
-                                         might be appearing in the LC-MS of the crude cleaved peptide mixture.
-                                         The utility implements a simple recursive solution of the subset sum problem.
-                                         Originally written for members of the Peter Kim lab at Stanford.
-                                    <div class="btn-group-xs">
-                                        <a href="https://evanmunro.shinyapps.io/peptide-checker-app/" target="_blank" class="btn btn-default">Web Application</a>
-                                        <a href="https://github.com/evanmunro/peptide-checker-app/" target="_blank" class="btn btn-default">Source Code</a>
-                                        <a href="https://github.com/evanmunro/peptide-checker" target="_blank" class="btn btn-default">C++ Utility</a>
-                                    </div>
-                                </div>
-                        </div>
-
-                    <div class="row marketing">
-                        <h4>Open Source Contributions </h4>
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <table class="table table-hover">
-
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Package</th>
-                                            <th scope="col">Language</th>
-                                            <th scope="col">Contribution</th>
-                                        </tr>
-                                    </thead>
-
-                                    <tbody>
-                                        <tr>
-                                            <th>grf</th>
-                                            <td>R</td>
-                                            <td> Boosted regression forests </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- <script src="js/bootstrap.min.js"></script> -->
-  </body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <!-- <script src="js/bootstrap.min.js"></script> -->
+</div>
+</body>
 </html>

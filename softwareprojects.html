@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Evan Munro</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"><!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="narrow-jumbotron.css" rel="stylesheet">
+  <link href="estyle.css" rel="stylesheet"><!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css"><!-- KaTeX -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js"></script><!-- Google Analytics -->
+</head>
+<body>
+  <div class="container">
+    <div class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="files/emunro-cv.pdf" target="_blank">CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="softwareprojects.html">Software Projects<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="outdoor.html">Outdoors</a>
+          </li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">Evan Munro</h3>
+    </div>
+    <div class="row marketing">
+      <a name="projs" id="projs"></a>
+      <p class="text-muted"></p>
+      <h4>Research Projects and Software</h4>
+    </div><!-- clonealign -->
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <strong>Deep Learning for Restaurant Choice</strong>
+        <p class="text-primary"></p>
+        <p class="text-muted">The state of the art methods in predicting consumer choice are Bayesian matrix factorization methods. This projects explores challenges and opportunities with using neural networks with embedding layers to predict restaurant choice from a large dataset of individual lunch choices in the Bay Area. Submitted as the final project for Stanford's Deep Learning class (CS230).</p>
+        <div class="btn-group-xs">
+          <a href="files/restaurantChoice.pdf" target="_blank" class="btn btn-default">Paper</a> <a href="https://github.com/evanmunro/restaurant-choice" target="_blank" class="btn btn-default">Code</a>
+        </div>
+      </div>
+    </div><!-- clonealign -->
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <strong>Identifying Side Products in Peptide Synthesis</strong>
+        <p class="text-primary"></p>
+        <p class="text-muted">Synthesis of long peptides via solid phase peptide synthesis can often lead to a number of side products. This simple R Shiny web application is meant to help determine which problematic side products might be appearing in the LC-MS of the crude cleaved peptide mixture. The utility implements a simple recursive solution of the subset sum problem. Originally written for members of the Peter Kim lab at Stanford.</p>
+        <div class="btn-group-xs">
+          <a href="https://evanmunro.shinyapps.io/peptide-checker-app/" target="_blank" class="btn btn-default">Web Application</a> <a href="https://github.com/evanmunro/peptide-checker-app/" target="_blank" class="btn btn-default">Source Code</a> <a href="https://github.com/evanmunro/peptide-checker" target="_blank" class="btn btn-default">C++ Utility</a>
+        </div>
+      </div>
+    </div>
+    <div class="row marketing">
+      <h4>Open Source Contributions</h4>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Package</th>
+                <th scope="col">Language</th>
+                <th scope="col">Contribution</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>grf</th>
+                <td>R</td>
+                <td>Boosted regression forests</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/blog/js/katex_init.js"></script>
+</body>
+</html>
