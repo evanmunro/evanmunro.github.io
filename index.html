@@ -48,9 +48,9 @@
     </div>
     <div class="row marketing">
       <div class="col-sm-8">
-        <p>I am a third-year PhD student in Economics at Stanford GSB, where I work with <a href="https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens" target="_blank">Guido Imbens</a>
-          and <a href="https://athey.people.stanford.edu" target="_blank">Susan Athey</a>.
-          I am interested in problems at the intersection of machine learning, econometrics, and mechanism design.
+        <p>I am a fourth-year PhD student in Economics at Stanford GSB, where I work with
+          <a href="https://athey.people.stanford.edu" target="_blank">Susan Athey</a>, <a href="https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens" target="_blank">Guido Imbens</a>, and <a href="https://web.stanford.edu/~swager/" target="_blank">Stefan Wager</a>.
+          I am interested in problems at the intersection of causal inference, experiment design, and machine learning.
         </p>
         <p>Previously, I received an MPhil in Economics from Oxford University and a B.A. in Economics and Computer Science-Mathematics
           from Columbia University.
@@ -74,74 +74,148 @@
 
     <div class="panel panel-default">
       <div class="panel-body">
-        <strong>Using Wasserstein Generative Adversarial Networks for the Design of Monte Carlo Simulations (with Susan Athey, Guido Imbens, and Jonas Metzger)</strong>
-        <p class="text-primary"><strong>Accepted, Journal of Econometrics </strong></p>
-        <p class="text-muted">We discuss using Wasserstein Generative Adversarial Networks (WGANs) as a method for systematically generating artificial data that mimic closely any given real data set without the researcher having many degrees of freedom. We apply the methods to compare in three different settings twelve different estimators for average treatment effects under unconfoundedness.</p>
+        <p>
+        <strong>Using Wasserstein Generative Adversarial Networks for the Design of Monte Carlo Simulations
+        </strong> (with Susan Athey, Guido Imbens, and Jonas Metzger). <i> Journal of Econometrics </i> (Forthcoming).
+      </p>
         <div class="btn-group-xs">
+          <a class="btn btn-primary" data-toggle="collapse" href="#abstractWGAN" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Abstract
+          </a>
           <a href="https://arxiv.org/pdf/1909.02210.pdf" target="_blank" class="btn btn-default">Paper</a>
           <a href="https://github.com/evanmunro/dswgan-paper" target="_blank" class="btn btn-default">Code </a>
           <a href="https://github.com/gsbDBI/ds-wgan" target="_blank" class="btn btn-default">Package</a>
         </div>
+        <div class="collapse" id="abstractWGAN">
+          <div class="panel-body">
+            <p class = "text-secondary">
+              We discuss using Wasserstein Generative Adversarial Networks (WGANs) as a method for systematically
+              generating artificial data that mimic closely any given real data set without the researcher having
+              many degrees of freedom. We apply the methods to compare in three different settings twelve different
+              estimators for average treatment effects under unconfoundedness.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 
+
+
     <div class="panel panel-default">
       <div class="panel-body">
-        <strong>Latent Dirichlet Analysis of Categorical Survey Expectations (with Serena Ng)</strong>
-        <p class="text-primary"><strong>Accepted, Journal of Business & Economic Statistics</strong></p>
-        <p class="text-muted"> We propose using a Bayesian hierarchical latent class model to summarize and interpret observed heterogeneity in categorical expectations data.
-          We show that the statistical model corresponds to an economic structural model of
-          information acquisition, which guides interpretation and estimation of the model parameters.
-        </p>
+        <p>
+        <strong> Latent Dirichlet Analysis of Categorical Survey Expectations</strong> (with Serena Ng).
+        <i> Journal of Business and Economic Statistics </i> (Forthcoming).
+      </p>
         <div class="btn-group-xs">
+          <a class="btn btn-primary" data-toggle="collapse" href="#abstractLDA" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Abstract
+          </a>
           <a href="https://www.tandfonline.com/doi/full/10.1080/07350015.2020.1802285" target="_blank" class="btn btn-default">Paper</a>
           <a href="https://arxiv.org/abs/1910.04883" target="_blank" class="btn btn-default">Preprint</a>
           <a href="https://github.com/evanmunro/hlvm-survey-paper" target="_blank" class="btn btn-default">Code</a>
-          <a href="https://github.com/evanmunro/dhlvm" target="_blank" class="btn btn-default">R package</a>
+          <a href="https://github.com/evanmunro/dhlvm" target="_blank" class="btn btn-default">Package</a>
+        </div>
+        <div class="collapse" id="abstractLDA">
+          <div class="panel-body">
+            <p class = "text-secondary">
+              We propose using a Bayesian hierarchical latent class model to summarize and interpret observed
+              heterogeneity in categorical expectations data. We show that the statistical model corresponds
+              to an economic structural model of information acquisition, which guides interpretation and
+              estimation of the model parameters.
+            </p>
+          </div>
         </div>
       </div>
     </div>
+
 
     <div class="row marketing">
       <a name="wps" id="wps"></a>
-      <p class="text-muted"></p>
-      <h4>Working Papers</h4><!-- clonealign -->
+      <p>
+      <h4>Working Papers</h4>
+    </p><!-- clonealign -->
     </div>
 
     <div class="panel panel-default">
       <div class="panel-body">
-        <strong>Targeting in Tournaments with Dynamic Incentives (with Martino Banchio)</strong>
-        <p class="text-primary"><strong>Status: Submitted</strong></p>
-        <p class="text-muted"> We study the problem of a planner who wants to reduce inequality by awarding prizes to the worst contestants in a tournament
-          without incentivizing shirking. We design an approximately optimal, incentive-compatible mechanism
-          that targets low-ranked contestants based on the tournament's history up to an endogenous stopping time. We describe applications to eligibility for remedial education,
-          retraining benefits for the unemployed, and draft lotteries in sports.
-        </p>
+        <p>
+        <strong>Treatment Effects in Market Equilibrium </strong> (with Stefan Wager and Kuang Xu).
+      </p>
         <div class="btn-group-xs">
-          <a href="files/targeting.pdf" target="_blank" class="btn btn-default">Paper</a> <a href="https://github.com/evanmunro/draft-policy" target="_blank" class="btn btn-default">Code</a>
+          <a class="btn btn-primary" data-toggle="collapse" href="#abstractEqm" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Abstract
+          </a>
+          <a href="https://arxiv.org/pdf/2109.11647.pdf" target="_blank" class="btn btn-default">Paper</a>
+          <a href="https://github.com/evanmunro/market-interference" target="_blank" class="btn btn-default">Code</a>
+        </div>
+        <div class="collapse" id="abstractEqm">
+          <div class="panel-body">
+            <p class = "text-secondary">
+              We introduce a stochastic model of potential outcomes in market equilibrium, where the market price is an exposure mapping.
+              We prove that average direct and indirect treatment effects converge to interpretable mean-field treatment effects,
+              and provide estimators for these effects through a unit-level randomized experiment augmented with randomization in prices.
+              We also provide a central limit theorem for the estimators.
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="panel panel-default">
       <div class="panel-body">
-        <strong>Learning to Personalize Treatments When Agents Are Strategic</strong>
-        <p class="text-muted"> Personalized policy creates incentives for individuals
-          to modify their behavior to obtain a better treatment.
-          For a given planner objective, I show that standard estimators that assume pre-treatment characteristics are exogeneous
-          produce a suboptimal policy. I propose a dynamic experiment that estimates
-          the optimal treatment allocation function when agents are strategic.
-        </p>
+        <p>
+        <strong>Targeting in Tournaments with Dynamic Incentives</strong> (with Martino Banchio).
+      </p>
         <div class="btn-group-xs">
+          <a class="btn btn-primary" data-toggle="collapse" href="#abstractBanch" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Abstract
+          </a>
+          <a href="files/targeting.pdf" target="_blank" class="btn btn-default">Paper</a>
+          <a href="https://github.com/evanmunro/draft-policy" target="_blank" class="btn btn-default">Code</a>
+        </div>
+        <div class="collapse" id="abstractBanch">
+          <div class="panel-body">
+            <p class = "text-secondary">
+              We study the problem of a planner who wants to reduce inequality by awarding prizes to the worst contestants in a tournament
+                without incentivizing shirking. We design an approximately optimal, incentive-compatible mechanism
+                that targets low-ranked contestants based on the tournament's history up to an endogenous stopping time. We describe applications to eligibility for remedial education,
+                retraining benefits for the unemployed, and draft lotteries in sports.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <p>
+        <strong>Learning to Personalize Treatments When Agents Are Strategic. </strong>
+      </p>
+        <div class="btn-group-xs">
+          <a class="btn btn-primary" data-toggle="collapse" href="#abstractTarg" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Abstract
+          </a>
           <a href="files/personalize.pdf" target="_blank" class="btn btn-default">Paper</a>
           <a href="https://github.com/evanmunro/personalized-policy" target="_blank" class="btn btn-default">Code</a>
         </div>
+        <div class="collapse" id="abstractTarg">
+          <div class="panel-body">
+            <p class = "text-secondary">
+              Personalized policy creates incentives for individuals
+                to modify their behavior to obtain a better treatment.
+                For a given planner objective, I show that standard estimators that assume pre-treatment characteristics are exogeneous
+                produce a suboptimal policy. I propose a dynamic experiment that estimates
+                the optimal treatment allocation function when agents are strategic.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> <!-- Include all compiled plugins (below), or include individual files as needed -->
-     <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </div>
 </body>
 </html>
