@@ -139,8 +139,42 @@
 
     <div class="panel panel-default">
       <div class="panel-body">
-        <p>
+        <strong>Treatment Allocation with Strategic Agents </strong>
+      <p class = "text-secondary">
+       <em> Major Revision at Management Science </em> <br>
+       <em> Presented at INFORMS 2022 and the IMS Annual Meeting 2022 </em>
+    </p>
+        <div class="btn-group-xs">
+          <a class="btn btn-primary" data-toggle="collapse" href="#abstractTarg" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Abstract
+          </a>
+          <a href="https://arxiv.org/abs/2011.06528" target="_blank" class="btn btn-default">Paper</a>
+          <a href="https://github.com/evanmunro/personalized-policy" target="_blank" class="btn btn-default">Code</a>
+        </div>
+        <div class="collapse" id="abstractTarg">
+          <div class="panel-body">
+            <p class = "text-secondary">
+          There is increasing interest in allocating treatments based on observed individual characteristics:
+          examples include targeted marketing, individualized credit offers, and heterogenous pricing.
+          Treatment personalization introduces incentives for individuals to modify their behavior to obtain a
+          better treatment.  This shifts the distribution of covariates, which means the Conditional Average Treatment Effect
+          (CATE) now depends on how treatments are targeted. The optimal rule without strategic behavior allocates treatments
+          only to those with a positive CATE. With strategic behavior, we show that the optimal rule can involve randomization,
+           allocating treatments with less than 100\% probability even to those with a positive CATE induced by that rule.
+           We propose a sequential experiment based on Bayesian Optimization that converges to the optimal treatment rule
+           without parametric assumptions on individual strategic behavior.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+
         <strong>Treatment Effects in Market Equilibrium </strong> (with Stefan Wager and Kuang Xu).
+        <p class = "text-secondary">
+        <em> Presented at the ASSA 2023 Annual Meeting </em>
       </p>
         <div class="btn-group-xs">
           <a class="btn btn-primary" data-toggle="collapse" href="#abstractEqm" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -197,8 +231,9 @@
 
     <div class="panel panel-default">
       <div class="panel-body">
-        <p>
         <strong>Targeting in Tournaments with Dynamic Incentives</strong> (with Martino Banchio).
+        <p class="text-secondary">
+        <em> Winner of the MIT Sports Analytics Research Competition 2020 </em>
       </p>
         <div class="btn-group-xs">
           <a class="btn btn-primary" data-toggle="collapse" href="#abstractBanch" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -214,32 +249,6 @@
                 without incentivizing shirking. We design an approximately optimal, incentive-compatible mechanism
                 that targets low-ranked contestants based on the tournament's history up to an endogenous stopping time. We describe applications to eligibility for remedial education,
                 retraining benefits for the unemployed, and draft lotteries in sports.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <p>
-        <strong>Learning to Personalize Treatments When Agents Are Strategic. </strong>
-      </p>
-        <div class="btn-group-xs">
-          <a class="btn btn-primary" data-toggle="collapse" href="#abstractTarg" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Abstract
-          </a>
-          <a href="https://arxiv.org/abs/2011.06528" target="_blank" class="btn btn-default">Paper</a>
-          <a href="https://github.com/evanmunro/personalized-policy" target="_blank" class="btn btn-default">Code</a>
-        </div>
-        <div class="collapse" id="abstractTarg">
-          <div class="panel-body">
-            <p class = "text-secondary">
-              Personalized policy creates incentives for individuals
-                to modify their behavior to obtain a better treatment.
-                For a given planner objective, I show that standard estimators that assume pre-treatment characteristics are exogeneous
-                produce a suboptimal policy. I propose a dynamic experiment that estimates
-                the optimal treatment allocation function when agents are strategic.
             </p>
           </div>
         </div>
