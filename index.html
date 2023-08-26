@@ -26,7 +26,7 @@
   <!-- Google analytics -->
 </head>
 <body>
-  <div class="container">
+  <div class="container" style="font-size: 15px">
     <div class="header clearfix">
       <nav>
         <ul class="nav nav-pills pull-right">
@@ -37,266 +37,296 @@
             <a class="nav-link" href="files/emunro-cv.pdf" target="_blank">CV</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="softwareprojects.html">Software Projects</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="outdoor.html">Outdoors</a>
           </li>
         </ul>
       </nav>
-      <h3 class="text-muted">Evan Munro</h3>
+      <h3>Evan Munro</h3>
+    </div>
+    <hr>
+    <div class="col-sm-3">
+      <center>
+        <img src="me.jpg" class="img-rounded img-responsive" style="max-width: 200px;" alt="me">
+        <a href="mailto:munro@stanford.edu" <i class = "fa fa-envelope fa-2x" > </i> </a> &nbsp; &nbsp;
+        <a href="https://github.com/evanmunro">  <i class="fa fa-github fa-2x"   ></i> </a> &nbsp; &nbsp;
+          <a href="https://scholar.google.com/citations?user=DHSivXEAAAAJ&hl=en"  <i class="fa fa-graduation-cap fa-2x"></i></a>
+      </center>
     </div>
     <div class="row marketing">
-      <div class="col-sm-8">
-        <p>I am a fifth-year PhD student in Economics at Stanford GSB, where I work with <a href="https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens" target="_blank">Guido Imbens</a> and <a href="https://web.stanford.edu/~swager/" target="_blank">Stefan Wager</a>.
-          I am interested in problems at the intersection of causal inference, experimental design, and econometrics.
-        </p>
-        <p>Previously, I received an MPhil in Economics from Oxford University and a B.A. in Economics and Computer Science-Mathematics
-          from Columbia University.
-        </p>
-        <center>
-          <a href="https://www.github.com/evanmunro" target="_blank"></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/evan-munro-a731a546" target="_blank"></a> &nbsp;&nbsp; <a href="mailto:munro@stanford.edu" target="_blank"></a> &nbsp;&nbsp;
-        </center>
-      </div>
-      <div class="col-sm-4">
-        <center>
-          <img src="me.jpg" class="img-rounded img-responsive" style="max-width: 200px;" alt="me">
-        </center>
-      </div>
-    </div>
-
-    <div class="row marketing">
-      <a name="wps" id="wps"></a>
-      <p class="text-muted"></p>
-      <h4>Publications and Accepted Papers</h4><!-- clonealign -->
-    </div>
-
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <p>
-        <strong>Using Wasserstein Generative Adversarial Networks for the Design of Monte Carlo Simulations
-        </strong> (with Susan Athey, Guido Imbens, and Jonas Metzger). <i> Journal of Econometrics </i> (Forthcoming).
+      <div class="col-sm-9">
+        <p>I am a PhD candidate in Economics at Stanford Graduate School of Business, jointly advised by <a href="https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens" target="_blank">Guido Imbens</a> and
+        <a href="https://web.stanford.edu/~swager/" target="_blank">Stefan Wager</a>. I am on the job market in 2023-2024.
       </p>
-        <div class="btn-group-xs">
-          <a class="btn btn-primary" data-toggle="collapse" href="#abstractWGAN" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Abstract
-          </a>
-          <a href="https://www.sciencedirect.com/science/article/pii/S0304407621000440" target="_blank" class="btn btn-default">Paper</a>
-          <a href="https://arxiv.org/abs/1909.02210" target="_blank" class="btn btn-default">Preprint</a>
-          <a href="https://github.com/evanmunro/dswgan-paper" target="_blank" class="btn btn-default">Code </a>
-          <a href="https://github.com/gsbDBI/ds-wgan" target="_blank" class="btn btn-default">Package</a>
-        </div>
-        <div class="collapse" id="abstractWGAN">
-          <div class="panel-body">
-            <p class = "text-secondary">
-              We discuss using Wasserstein Generative Adversarial Networks (WGANs) as a method for systematically
-              generating artificial data that mimic closely any given real data set without the researcher having
-              many degrees of freedom. We apply the methods to compare in three different settings twelve different
-              estimators for average treatment effects under unconfoundedness.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <p>
-        <strong> Latent Dirichlet Analysis of Categorical Survey Expectations</strong> (with Serena Ng).
-        <i> Journal of Business and Economic Statistics </i> (2022).
-      </p>
-        <div class="btn-group-xs">
-          <a class="btn btn-primary" data-toggle="collapse" href="#abstractLDA" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Abstract
-          </a>
-          <a href="https://www.tandfonline.com/doi/full/10.1080/07350015.2020.1802285" target="_blank" class="btn btn-default">Paper</a>
-          <a href="https://arxiv.org/abs/1910.04883" target="_blank" class="btn btn-default">Preprint</a>
-          <a href="https://github.com/evanmunro/hlvm-survey-paper" target="_blank" class="btn btn-default">Code</a>
-          <a href="https://github.com/evanmunro/dhlvm" target="_blank" class="btn btn-default">Package</a>
-        </div>
-        <div class="collapse" id="abstractLDA">
-          <div class="panel-body">
-            <p class = "text-secondary">
-              We propose using a Bayesian hierarchical latent class model to summarize and interpret observed
-              heterogeneity in categorical expectations data. We show that the statistical model corresponds
-              to an economic structural model of information acquisition, which guides interpretation and
-              estimation of the model parameters.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="row marketing">
-      <a name="wps" id="wps"></a>
+      <br>
       <p>
-      <h4>Working Papers</h4>
-    </p><!-- clonealign -->
-    </div>
+          My research is in econometrics, with a focus on causal inference
+          and data-driven decision making in markets.
+        </p>
+        <br>
+        <p>
+          My CV is available <a href="files/emunro-cv.pdf" > here</a>. To contact me, please send me an email at <a href="mailto:munro@stanford.edu" target="_blank"> munro@stanford.edu</a>.
+        </p>
 
-    <div class="panel panel-default">
-      <div class="panel-body">
-
-        <strong>Treatment Effects in Market Equilibrium </strong> (with Stefan Wager and Kuang Xu).
-
-        <p class="text-primary">
-        <strong> Revise & Resubmit at the American Economic Review </strong>
+        <br>
+        <br> 
+        <p>
+        <h4><strong> <u> Job Market Paper  </u> </strong></h4>
       </p>
-        <p class = "text-secondary">
-        <em> Presented at the ASSA 2023 Annual Meeting </em>
+      <hr>
+
+
+          <div class="panel panel-default">
+
+            <div class="panel-body">
+              <p><strong>Efficient Estimation of Causal Effects under Interference through Designed Markets.
+              </strong></p>
+            <div class="btn-group-xs">
+              <a class="btn btn-primary" data-toggle="collapse" href="#abstractJMP" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Abstract
+              </a>
+              <a href="files/munro_jmp.pdf" target="_blank" class="btn btn-default">Paper</a>
+            </div>
+            <div class="collapse" id="abstractJMP">
+                <div class="panel-body">
+                  <p class = "text-secondary">
+                    In many settings, centralized mechanisms determine the allocation of goods, such as schools, advertising slots, medical residencies,
+                    or kidneys to individuals. Individuals submit reports to an auction or matching algorithm.
+                    A binary intervention, such as providing information on school quality to students, or a
+                    new click-through-rate algorithm to advertisers, can affect these reports.
+                    We define the global treatment effect (GTE) of this type of intervention on the resulting allocations,
+                    when interference operates through the mechanism, and the mechanism has a cutoff structure.
+                    We propose a two-step doubly-robust estimator for the GTE and show that it is asymptotically normal with variance
+                    that meets the semi-parametric efficiency bound.  We derive a theory of heterogeneous treatment effects in this
+                    setting and use it to build a targeting rule that maximizes expected outcomes. We use these methods to analyze
+                    the effect of information interventions in the Chilean school assignment system.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <p>
+        <h4><strong> <u> Working Papers  </u> </strong></h4>
       </p>
-        <div class="btn-group-xs">
-          <a class="btn btn-primary" data-toggle="collapse" href="#abstractEqm" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Abstract
-          </a>
-          <a href="https://arxiv.org/pdf/2109.11647.pdf" target="_blank" class="btn btn-default">Paper</a>
-          <a href="https://github.com/evanmunro/market-interference" target="_blank" class="btn btn-default">Code</a>
-        </div>
-        <div class="collapse" id="abstractEqm">
+      <hr>
+
+
+        <div class="panel panel-default">
           <div class="panel-body">
-            <p class = "text-secondary">
-              We introduce a stochastic model of potential outcomes in market equilibrium, where the market price is an exposure mapping.
-              We prove that average direct and indirect treatment effects converge to interpretable mean-field treatment effects,
-              and provide estimators for these effects through a unit-level randomized experiment augmented with randomization in prices.
-              We also provide a central limit theorem for the estimators.
-            </p>
+
+            <strong>Treatment Effects in Market Equilibrium </strong> (with Stefan Wager and Kuang Xu).
+
+            <p class="text-primary">
+            <strong> Revise & Resubmit at the American Economic Review </strong>
+          </p>
+            <div class="btn-group-xs">
+              <a class="btn btn-primary" data-toggle="collapse" href="#abstractEqm" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Abstract
+              </a>
+              <a href="https://arxiv.org/pdf/2109.11647.pdf" target="_blank" class="btn btn-default">Paper</a>
+              <a href="https://github.com/evanmunro/market-interference" target="_blank" class="btn btn-default">Code</a>
+            </div>
+            <div class="collapse" id="abstractEqm">
+              <div class="panel-body">
+                <p class = "text-secondary">
+                  We introduce a stochastic model of potential outcomes in market equilibrium, where the market price is an exposure mapping.
+                  We prove that average direct and indirect treatment effects converge to interpretable mean-field treatment effects,
+                  and provide estimators for these effects through a unit-level randomized experiment augmented with randomization in prices.
+                  We also provide a central limit theorem for the estimators.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <strong>Treatment Allocation under Uncertain Costs </strong> (with Hao Sun, Georgy Kalashnov, Shuyang Du and Stefan Wager).
+            <p class="text-primary">
+            <strong> Major Revision at Management Science </strong>
+          </p>
+            <div class="btn-group-xs">
+              <a class="btn btn-primary" data-toggle="collapse" href="#abstractCosts" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Abstract
+              </a>
+              <a href="https://arxiv.org/abs/2103.11066" target="_blank" class="btn btn-default">Paper</a>
+            </div>
+            <div class="collapse" id="abstractCosts">
+              <div class="panel-body">
+                <p class = "text-secondary">
+                  We consider the problem of learning how to optimally allocate treatments
+                  whose cost is uncertain and can vary with pre-treatment covariates. This
+                  setting may arise in medicine if we need to prioritize access to a scarce
+                  resource that different patients would use for different amounts of time, or in
+                  marketing if we want to target discounts whose cost to the company depends on
+                  how much the discounts are used. Here, we show that the optimal treatment
+                  allocation rule under budget constraints is a thresholding rule based on
+                  priority scores, and we propose a number of practical methods for learning
+                  these priority scores using data from a randomized trial. Our formal results
+                  leverage a statistical connection between our problem and that of learning
+                  heterogeneous treatment effects under endogeneity using an instrumental
+                  variable. We find our method to perform well in a number of empirical
+                  evaluations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <strong>Targeting in Tournaments with Dynamic Incentives</strong> (with Martino Banchio).
+            <p class="text-secondary">
+            <em> Winner of the MIT Sports Analytics Research Competition 2020 </em>
+          </p>
+            <div class="btn-group-xs">
+              <a class="btn btn-primary" data-toggle="collapse" href="#abstractBanch" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Abstract
+              </a>
+              <a href="files/targeting.pdf" target="_blank" class="btn btn-default">Paper</a>
+              <a href="https://github.com/evanmunro/draft-policy" target="_blank" class="btn btn-default">Code</a>
+            </div>
+            <div class="collapse" id="abstractBanch">
+              <div class="panel-body">
+                <p class = "text-secondary">
+                  We study the problem of a planner who wants to reduce inequality by awarding prizes to the worst contestants in a tournament
+                    without incentivizing shirking. We design an approximately optimal, incentive-compatible mechanism
+                    that targets low-ranked contestants based on the tournament's history up to an endogenous stopping time. We describe applications to eligibility for remedial education,
+                    retraining benefits for the unemployed, and draft lotteries in sports.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <p>
+          <h4><strong> <u> Publications and Accepted Papers </u> </strong></h4>
+          <hr> <!-- clonealign -->
+        </p>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <p>
+            <strong>Treatment Allocation with Strategic Agents. </strong> <i> Management Science </i> (Forthcoming).
+          </p>
+            <div class="btn-group-xs">
+              <a class="btn btn-primary" data-toggle="collapse" href="#abstractTarg" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Abstract
+              </a>
+              <a href="https://arxiv.org/abs/2011.06528" target="_blank" class="btn btn-default">Paper</a>
+              <a href="https://github.com/evanmunro/personalized-policy" target="_blank" class="btn btn-default">Code</a>
+            </div>
+            <div class="collapse" id="abstractTarg">
+              <div class="panel-body">
+                <p class = "text-secondary">
+              There is increasing interest in allocating treatments based on observed individual characteristics:
+              examples include targeted marketing, individualized credit offers, and heterogenous pricing.
+              Treatment personalization introduces incentives for individuals to modify their behavior to obtain a
+              better treatment.  This shifts the distribution of covariates, which means the Conditional Average Treatment Effect
+              (CATE) now depends on how treatments are targeted. The optimal rule without strategic behavior allocates treatments
+              only to those with a positive CATE. With strategic behavior, we show that the optimal rule can involve randomization,
+               allocating treatments with less than 100\% probability even to those with a positive CATE induced by that rule.
+               We propose a sequential experiment based on Bayesian Optimization that converges to the optimal treatment rule
+               without parametric assumptions on individual strategic behavior.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <p>
+            <strong>Using Wasserstein Generative Adversarial Networks for the Design of Monte Carlo Simulations
+            </strong> (with Susan Athey, Guido Imbens, and Jonas Metzger). <i> Journal of Econometrics </i> (Forthcoming).
+          </p>
+            <div class="btn-group-xs">
+              <a class="btn btn-primary" data-toggle="collapse" href="#abstractWGAN" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Abstract
+              </a>
+              <a href="https://www.sciencedirect.com/science/article/pii/S0304407621000440" target="_blank" class="btn btn-default">Paper</a>
+              <a href="https://arxiv.org/abs/1909.02210" target="_blank" class="btn btn-default">Preprint</a>
+              <a href="https://github.com/evanmunro/dswgan-paper" target="_blank" class="btn btn-default">Code </a>
+              <a href="https://github.com/gsbDBI/ds-wgan" target="_blank" class="btn btn-default">Package</a>
+            </div>
+            <div class="collapse" id="abstractWGAN">
+              <div class="panel-body">
+                <p class = "text-secondary">
+                  We discuss using Wasserstein Generative Adversarial Networks (WGANs) as a method for systematically
+                  generating artificial data that mimic closely any given real data set without the researcher having
+                  many degrees of freedom. We apply the methods to compare in three different settings twelve different
+                  estimators for average treatment effects under unconfoundedness.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <p>
+            <strong> Latent Dirichlet Analysis of Categorical Survey Expectations</strong> (with Serena Ng).
+            <i> Journal of Business and Economic Statistics </i> (2022).
+          </p>
+            <div class="btn-group-xs">
+              <a class="btn btn-primary" data-toggle="collapse" href="#abstractLDA" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Abstract
+              </a>
+              <a href="https://www.tandfonline.com/doi/full/10.1080/07350015.2020.1802285" target="_blank" class="btn btn-default">Paper</a>
+              <a href="https://arxiv.org/abs/1910.04883" target="_blank" class="btn btn-default">Preprint</a>
+              <a href="https://github.com/evanmunro/hlvm-survey-paper" target="_blank" class="btn btn-default">Code</a>
+              <a href="https://github.com/evanmunro/dhlvm" target="_blank" class="btn btn-default">Package</a>
+            </div>
+            <div class="collapse" id="abstractLDA">
+              <div class="panel-body">
+                <p class = "text-secondary">
+                  We propose using a Bayesian hierarchical latent class model to summarize and interpret observed
+                  heterogeneity in categorical expectations data. We show that the statistical model corresponds
+                  to an economic structural model of information acquisition, which guides interpretation and
+                  estimation of the model parameters.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br>
+
+          <h4> <strong> <u> Conference Papers </u> </strong> </h4>
+          <hr>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <p>
+           <strong>Causal Estimation of User Learning in Personalized Systems</strong> (with David Jones, Jennifer Brennan, Roland Nelet, Vahab Mirrokni and Jean Pouget-Abadie).
+            <i> The Twenty-Fourth ACM Conference on Economics and Computation (EC'23) </i>. </p>
+            <div class="btn-group-xs">
+              <a class="btn btn-primary" data-toggle="collapse" href="#abstractGoog" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Abstract
+              </a>
+              <a href="https://dl.acm.org/doi/10.1145/3580507.3597702" target="_blank" class="btn btn-default"> Paper </a>
+              <a href="https://arxiv.org/abs/2306.00485" target="_blank" class="btn btn-default">Preprint</a>
+            </div>
+            <div class="collapse" id="abstractGoog">
+              <div class="panel-body">
+                <p class = "text-secondary">
+                  In online platforms, the impact of a treatment on an observed outcome may change over time as 1) users learn about the intervention,
+                  and 2) the system personalization, such as individualized recommendations, change over time.
+                  We introduce a non-parametric causal model of user actions in a personalized system.
+                  We show that the Cookie-Cookie-Day (CCD) experiment, designed for the measurement of the user learning effect,
+                  is biased when there is personalization. We derive new experimental designs that intervene in the
+                  personalization system to generate the variation necessary to separately identify the causal effect
+                  mediated through user learning and personalization. Making parametric assumptions allows for the estimation of
+                  long-term causal effects based on medium-term experiments. In simulations, we  show that our new designs
+                  successfully recover the dynamic causal effects of interest.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <strong>Treatment Allocation with Strategic Agents </strong>
-        <p class="text-primary">
-        <strong> Minor Revision at Management Science </strong>
-      </p>
-      <p class = "text-secondary">
-       <em> Presented at INFORMS 2022 and the IMS Annual Meeting 2022 </em>
-    </p>
-        <div class="btn-group-xs">
-          <a class="btn btn-primary" data-toggle="collapse" href="#abstractTarg" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Abstract
-          </a>
-          <a href="https://arxiv.org/abs/2011.06528" target="_blank" class="btn btn-default">Paper</a>
-          <a href="https://github.com/evanmunro/personalized-policy" target="_blank" class="btn btn-default">Code</a>
-        </div>
-        <div class="collapse" id="abstractTarg">
-          <div class="panel-body">
-            <p class = "text-secondary">
-          There is increasing interest in allocating treatments based on observed individual characteristics:
-          examples include targeted marketing, individualized credit offers, and heterogenous pricing.
-          Treatment personalization introduces incentives for individuals to modify their behavior to obtain a
-          better treatment.  This shifts the distribution of covariates, which means the Conditional Average Treatment Effect
-          (CATE) now depends on how treatments are targeted. The optimal rule without strategic behavior allocates treatments
-          only to those with a positive CATE. With strategic behavior, we show that the optimal rule can involve randomization,
-           allocating treatments with less than 100\% probability even to those with a positive CATE induced by that rule.
-           We propose a sequential experiment based on Bayesian Optimization that converges to the optimal treatment rule
-           without parametric assumptions on individual strategic behavior.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <strong>Treatment Allocation under Uncertain Costs </strong> (with Hao Sun, Georgy Kalashnov, Shuyang Du and Stefan Wager)
-        <p class="text-primary">
-        <strong> Major Revision at Management Science </strong>
-      </p>
-        <div class="btn-group-xs">
-          <a class="btn btn-primary" data-toggle="collapse" href="#abstractCosts" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Abstract
-          </a>
-          <a href="https://arxiv.org/abs/2103.11066" target="_blank" class="btn btn-default">Paper</a>
-        </div>
-        <div class="collapse" id="abstractCosts">
-          <div class="panel-body">
-            <p class = "text-secondary">
-              We consider the problem of learning how to optimally allocate treatments
-              whose cost is uncertain and can vary with pre-treatment covariates. This
-              setting may arise in medicine if we need to prioritize access to a scarce
-              resource that different patients would use for different amounts of time, or in
-              marketing if we want to target discounts whose cost to the company depends on
-              how much the discounts are used. Here, we show that the optimal treatment
-              allocation rule under budget constraints is a thresholding rule based on
-              priority scores, and we propose a number of practical methods for learning
-              these priority scores using data from a randomized trial. Our formal results
-              leverage a statistical connection between our problem and that of learning
-              heterogeneous treatment effects under endogeneity using an instrumental
-              variable. We find our method to perform well in a number of empirical
-              evaluations.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <strong>Targeting in Tournaments with Dynamic Incentives</strong> (with Martino Banchio).
-        <p class="text-secondary">
-        <em> Winner of the MIT Sports Analytics Research Competition 2020 </em>
-      </p>
-        <div class="btn-group-xs">
-          <a class="btn btn-primary" data-toggle="collapse" href="#abstractBanch" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Abstract
-          </a>
-          <a href="files/targeting.pdf" target="_blank" class="btn btn-default">Paper</a>
-          <a href="https://github.com/evanmunro/draft-policy" target="_blank" class="btn btn-default">Code</a>
-        </div>
-        <div class="collapse" id="abstractBanch">
-          <div class="panel-body">
-            <p class = "text-secondary">
-              We study the problem of a planner who wants to reduce inequality by awarding prizes to the worst contestants in a tournament
-                without incentivizing shirking. We design an approximately optimal, incentive-compatible mechanism
-                that targets low-ranked contestants based on the tournament's history up to an endogenous stopping time. We describe applications to eligibility for remedial education,
-                retraining benefits for the unemployed, and draft lotteries in sports.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="row marketing">
-      <a name="wps" id="wps"></a>
-      <p>
-      <h4>Conference Papers</h4>
-    </p><!-- clonealign -->
-    </div>
-
-    <div class="panel panel-default">
-      <div class="panel-body">
-       <strong>Causal Estimation of User Learning in Personalized Systems</strong> (with David Jones, Jennifer Brennan, Roland Nelet, Vahab Mirrokni and Jean Pouget-Abadie).
-        <i> The Twenty-Fourth ACM Conference on Economics and Computation (EC'23) </i>.
-        <div class="btn-group-xs">
-          <a class="btn btn-primary" data-toggle="collapse" href="#abstractGoog" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Abstract
-          </a>
-          <a href="https://arxiv.org/abs/2306.00485" target="_blank" class="btn btn-default">Preprint</a>
-        </div>
-        <div class="collapse" id="abstractGoog">
-          <div class="panel-body">
-            <p class = "text-secondary">
-              In online platforms, the impact of a treatment on an observed outcome may change over time as 1) users learn about the intervention,
-              and 2) the system personalization, such as individualized recommendations, change over time.
-              We introduce a non-parametric causal model of user actions in a personalized system.
-              We show that the Cookie-Cookie-Day (CCD) experiment, designed for the measurement of the user learning effect,
-              is biased when there is personalization. We derive new experimental designs that intervene in the
-              personalization system to generate the variation necessary to separately identify the causal effect
-              mediated through user learning and personalization. Making parametric assumptions allows for the estimation of
-              long-term causal effects based on medium-term experiments. In simulations, we  show that our new designs
-              successfully recover the dynamic causal effects of interest.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
 
 
 
